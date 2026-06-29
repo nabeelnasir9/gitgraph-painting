@@ -1,0 +1,188 @@
+@import "tailwindcss";
+
+:root {
+  --warm: #FAF7F0;
+  --cream: #F4F0E6;
+  --linen: #EDE8DB;
+  --parchment: #EBE6D6;
+  --sage: #F3F6EE;
+  --stone: #A8A59C;
+  --taupe: #6B675E;
+  --charcoal: #353530;
+  --near: #1A1A17;
+  --forest: #2D5A3D;
+  --font-display: Fraunces, Georgia, serif;
+  --font-body: "Hanken Grotesk", Inter, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--warm);
+}
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(color-mix(in srgb, var(--stone) 18%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in srgb, var(--stone) 18%, transparent) 1px, transparent 1px),
+    radial-gradient(circle at top left, rgba(203, 216, 192, .25), transparent 34rem),
+    var(--warm);
+  background-size: 28px 28px, 28px 28px, auto, auto;
+  color: var(--charcoal);
+  font-family: var(--font-body);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+@keyframes tick {
+  0% {
+    opacity: 0;
+    transform: scale(.72) rotate(-8deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+.text-charcoal {
+  color: var(--charcoal);
+}
+
+.text-forest {
+  color: var(--forest);
+}
+
+.text-near {
+  color: var(--near);
+}
+
+.text-stone {
+  color: var(--stone);
+}
+
+.text-taupe {
+  color: var(--taupe);
+}
+
+.text-warm {
+  color: var(--warm);
+}
+
+.bg-cream {
+  background-color: var(--cream);
+}
+
+.bg-forest {
+  background-color: var(--forest);
+}
+
+.bg-linen\/85 {
+  background-color: color-mix(in srgb, var(--linen) 85%, transparent);
+}
+
+.bg-near\/20 {
+  background-color: color-mix(in srgb, var(--near) 20%, transparent);
+}
+
+.bg-near {
+  background-color: var(--near);
+}
+
+.bg-parchment {
+  background-color: var(--parchment);
+}
+
+.bg-sage {
+  background-color: var(--sage);
+}
+
+.bg-warm {
+  background-color: var(--warm);
+}
+
+.bg-warm\/80 {
+  background-color: color-mix(in srgb, var(--warm) 80%, transparent);
+}
+
+.border-forest {
+  border-color: var(--forest);
+}
+
+.border-stone\/40 {
+  border-color: color-mix(in srgb, var(--stone) 40%, transparent);
+}
+
+.border-stone\/45 {
+  border-color: color-mix(in srgb, var(--stone) 45%, transparent);
+}
+
+.border-stone\/50 {
+  border-color: color-mix(in srgb, var(--stone) 50%, transparent);
+}
+
+.border-stone\/55 {
+  border-color: color-mix(in srgb, var(--stone) 55%, transparent);
+}
+
+.border-stone\/60 {
+  border-color: color-mix(in srgb, var(--stone) 60%, transparent);
+}
+
+.ring-forest {
+  --tw-ring-color: var(--forest);
+}
+
+.focus-visible\:outline-forest:focus-visible {
+  outline-color: var(--forest);
+}
+
+.hover\:bg-forest\/90:hover {
+  background-color: color-mix(in srgb, var(--forest) 90%, transparent);
+}
+
+.hover\:bg-sage:hover {
+  background-color: var(--sage);
+}
+
+.disabled\:bg-cream:disabled {
+  background-color: var(--cream);
+}
+
+.disabled\:text-stone:disabled {
+  color: var(--stone);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-label="GitGraph Painter apple icon">
+  <rect width="180" height="180" rx="42" fill="#FAF7F0"/>
+  <rect x="30" y="36" width="120" height="108" rx="24" fill="#F4F0E6" stroke="#A8A59C" stroke-width="3"/>
+  <g>
+    <rect x="48" y="54" width="17" height="17" rx="4" fill="#EBE6D6"/>
+    <rect x="73" y="54" width="17" height="17" rx="4" fill="#CBD8C0"/>
+    <rect x="98" y="54" width="17" height="17" rx="4" fill="#9DBB94"/>
+    <rect x="123" y="54" width="17" height="17" rx="4" fill="#2D5A3D"/>
+    <rect x="48" y="82" width="17" height="17" rx="4" fill="#CBD8C0"/>
+    <rect x="73" y="82" width="17" height="17" rx="4" fill="#5F8A66"/>
+    <rect x="98" y="82" width="17" height="17" rx="4" fill="#2D5A3D"/>
+    <rect x="123" y="82" width="17" height="17" rx="4" fill="#9DBB94"/>
+    <rect x="48" y="110" width="17" height="17" rx="4" fill="#2D5A3D"/>
+    <rect x="73" y="110" width="17" height="17" rx="4" fill="#9DBB94"/>
+    <rect x="98" y="110" width="17" height="17" rx="4" fill="#CBD8C0"/>
+    <rect x="123" y="110" width="17" height="17" rx="4" fill="#EBE6D6"/>
+  </g>
+</svg>
