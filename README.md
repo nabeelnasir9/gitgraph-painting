@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/logo_new.png" alt="GitGraph Painter logo" width="120" />
+  <img src="public/logo_new.png" alt="GitGraph Painter logo" width="220" />
 </p>
 
 # GitGraph Painter
