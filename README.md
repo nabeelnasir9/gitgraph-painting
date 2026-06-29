@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/logo_new.png" alt="GitGraph Painter logo" width="120" />
+</p>
+
 # GitGraph Painter
 
 Paint your GitHub contribution graph before you touch git.
