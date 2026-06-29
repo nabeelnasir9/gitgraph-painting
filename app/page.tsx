@@ -342,7 +342,7 @@ export default function Home() {
           GitGraph Painter
         </a>
         <div className="flex items-center gap-1 sm:gap-2">
-          <a className={buttonBase} href="https://github.com/nabeelnasir9" target="_blank" rel="noreferrer">
+          <a className={buttonBase} href="https://github.com/nabeelnasir9/gitgraph-painting" target="_blank" rel="noreferrer">
             Star on GitHub
           </a>
           <button className={buttonBase} type="button" onClick={() => setHelpOpen(true)}>
